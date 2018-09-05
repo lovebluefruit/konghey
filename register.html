@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<div class="register">
+		<!--页面头部-->
+		<header id="header">
+			<div class="header">
+				<div class="content  clear">
+					<span class="tel">客服热线：400-108-1089</span>
+					<div class="menu rf">
+						<a href="index.html">首页</a>
+						<a href="login.html">快速登录</a>
+						<a href="#">帮助中心</a>
+					</div>
+				</div>
+			</div>
+			<!--2.logo+导航-->
+			<div class="nav ">
+				<div class="nav-content">
+					<a href="index.html" class="logo"></a>
+					<!--<ul class="nav-menu rf">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="product.html">我要出借</a>
+						</li>				
+						<li>
+							<a href="#">我要借款</a>
+						</li>
+						<li>
+							<a href="#">信息披露</a>
+						</li>
+						<li>
+							<a href="#">我的账户</a>
+						</li>			
+					</ul>-->
+				</div>
+			</div>
+		</header>
+		<!---页面主体-->
+		<div class="register-main">
+			<div class="register-container">
+				<div class="register-title">
+				</div>
+				<div class="register-content clear">
+					<div class="lf">
+						<div class="content-title">
+							<a href="#box1" class="active" data-register="register">个人注册</a>
+							<a href="#box2"  data-register="comregister">企业注册</a>
+						</div>
+						<div class="register-value">
+							<form action="data/users/register.php">
+								<table>
+								    <thead id="box2">
+								        <tr>
+								            <td class="td-01">
+                                            	<span>*</span>
+                                            		企业名
+                                            	</td>
+                                            	<td  class="td-02">
+                                            		<label>
+                                                       <i class="icon-user"></i>
+                                                     </label>
+                                            		<input type="text" class="txt">
+                                            	</td>
+								        </tr>
+								        <tr>
+                                        	<td class="td-01">
+                                                <span>*</span>
+                                                统一企业信用代码
+                                             </td>
+                                              <td  class="td-02">
+                                                  <label>
+                                                  	<i class="icon-IDcard"></i>
+                                                  </label>
+                                                   <input type="text" class="txt">
+                                              </td>
+                                        </tr>
+								    </thead>
+									<tbody id="box1" class="active">
+										<tr>
+											<td class="td-01">
+												<span>*</span>
+												手机号
+											</td>
+											<td  class="td-02">
+												<label>+86</label>
+												<input type="text" class="txt" name="phone" data-txt="input">
+												<span class="unameShow"></span>
+											</td>
+										</tr>
+										<tr>
+											<td class="td-01">
+												<span>*</span>
+												密码
+											</td>
+											<td class="td-02">
+													<label>
+														<i class="icon-lock"></i>
+													</label>
+													<input type="password" class="txt" name="upwd" data-txt="input">
+													<span class="upwdShow"></span>
+											</td>
+										</tr>
+										<tr>
+											<td class="td-01">
+												<span>*</span>
+												确认密码
+											</td>
+											<td class="td-02">
+													<label>
+														<i class="icon-lock"></i>
+													</label>
+													<input type="password" class="txt" name="cpwd" data-txt="input">
+													<span class="cpwdShow"></span>
+											</td>
+										</tr>
+										<tr>
+											<td class="td-01">
+												推荐手机号/邀请码
+											</td>
+											<td class="td-02">
+													<label>
+														<i class="icon-friend"></i>
+													</label>
+													<input type="text" class="txt">
+											</td>
+										</tr>
+										<tr>
+											<td class="td-01">
+												<span>*</span>
+												验证码
+											</td>
+											<td class="td-02">
+													<input type="text" class="txt2">
+													<a href="#" class="send-code">发送验证码</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="td-03"></td>
+											<td class="td-03">
+												<input type="checkbox" name="agree" >我已阅读并同意
+												<a href="#">《服务协议》</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="td-01"></td>
+											<td class="td-02">
+												<a href="#" class="set-ac" id="btn">创建账户</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+					<div class="register-bg rf">
+						<div class="register-bgAside">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="register-text">
+				<p>
+					阿里巴巴金融云为您提供银行级安全稳定的交易环境，全程为您的投资保驾护航。
+				</p>
+			</div>
+		</div>
+					<!--7.右侧边栏-->
+					<div class="aside-right">
+						<ul>
+							<li class="value">
+								<i></i>
+								<a href="#">在线客服</a>
+								<div class="aside-tel">
+									<a href="#">一号客服</a>
+									<p>
+										<i class="phone"></i>
+										咨询电话: 
+										<span>400-108-1089</span>
+									</p>
+									<p>早09:00-晚17:30(周一至周五)</p>
+								</div>
+							</li>
+							<li class="wx">
+								<i></i>
+								<span>官方微信</span>
+								<div class="aside-wx">
+									<i></i>
+									<p>关注恭喜发财金融网</p>
+								</div>
+							</li>
+							<li>
+									<i></i>
+								<a href="#">计算器</a>
+							</li>
+							<li>
+								<i></i>
+								<a href="#">风险测评</a>
+							</li>
+							<li>
+								<i></i>
+								<a href="#">风险提示</a>
+							</li>
+							<li style="display:none;">
+								<i></i>
+								<a href="#">返回顶部</a>
+							</li>
+						</ul>
+					</div>
+		<!--页面尾部-->
+		<footer id="footer"></footer>
+	</div>
+	<script src="js/ajax.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/register.js"></script>
+</body>
+</html>

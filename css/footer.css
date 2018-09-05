@@ -1,0 +1,119 @@
+*{
+	box-sizing:border-box;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+body{
+	font:14px/1.5 Microsoft YaHei,Helvetica,Tahoma;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#ffa500
+}
+img{
+vertical-align:middle;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+/***设置底部父元素的宽度***/
+div.footer{
+	width:100%;
+	background:#293C55;
+}
+div.footer>div.center{
+	width:1000px;
+	margin:0 auto;
+}
+div.footer>div.center>div.morelink{
+width:480px;
+padding-top:15px;
+overflow:hidden;
+}
+div.footer>div.center>div.morelink ul{
+	width:120px ;
+	float:left;
+}
+div.footer>div.center>div.morelink ul li span{
+color:#b9bec7;
+}
+div.footer>div.center>div.morelink ul li a{
+color:#8a949c;
+text-align:center;
+padding:10px 20px 10px 0px ;
+}
+/*右侧微信和客服联系*/
+div.footer-weixin{
+	width:120px;
+	overflow:hidden;
+	padding-top:20px;
+}
+div.footer-weixin>div.code{
+	width:114px;
+	height:140px;
+}
+div.footer-weixin>div.code>i.icon-weixin-code{
+	background:url("../Images/qrcode.png") no-repeat center;
+	width:114px ;
+	height:114px;
+	display:block;
+	vertical-align:middle;
+}
+div.footer-weixin>div.code>p{
+	color:#c17b35;
+	line-height:30px;
+}
+div.footer-kf{
+	width:300px;
+	overflow:hidden;
+	padding-top:20px;
+}
+div.footer-kf>p{
+	text-align:right;
+	padding-right:10px;
+	line-height:24px;
+	color:gray;
+}
+div.footer-kf>p:nth-child(2){
+	font-size:24px;
+	color:#c17b35;
+	padding-bottom:10px;
+}
+div.footer-kf>p:nth-child(4){
+	font-size:18px;
+	color:#c17b35;
+}
+/*上栏底部，友情链接显示区*/
+div.footer div.center div.fir-link{
+	width:1000px;
+	line-height:24px;
+	border-bottom:1px solid #373f45;
+	padding-top:15px;
+}
+div.footer div.center div.copyright{
+	width:1000px;
+	height:26px;
+	line-height:26px;
+	color:#8a949c;
+	border-top:1px solid #58646e;
+}
+div.footer div.center div.copyright>a{
+	color:#8a949c;
+}
+div.footer div.center div.copyright>a:hover{
+	color:#c17b35;
+}

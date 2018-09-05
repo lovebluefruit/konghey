@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="login">
+		<!--1.页面头部-->
+		<div id="header"></div>
+		<!--2.login主体-->
+		<div class="main">
+			<div class="login-content clear">
+				<!--2.1右侧登录框-->
+				<div class="login-main">
+					<div>
+						<p class="login-title">
+							<i></i>
+							<span>用户登录</span>
+							<i></i>
+						</p>	
+						<div class="login-value">
+							<form action="">
+								<table>
+									<tbody>
+										<tr>
+											<td>
+												<div class="txt-msg">
+													<p>
+														<i></i>
+													</p>
+													<div class="txt-empty" ></div>
+													<!--<div class="pwd-empty" style="display:none;">请输入密码</div>
+													<div class="empty" style="display:none;">请输入手机号和密码</div>
+													<div class="error" style="display:block;">手机号与密码不匹配，请重新输入</div>-->
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="txt-val">
+													<p>
+														<i></i>
+													</p>
+													<input type="text" placeholder="请输入手机号"  name="phone" id="phone">
+													<span class="ck-reset"></span>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="pwd-val">
+													<p>
+														<i></i>
+													</p>
+													<input type="password"  placeholder="请输入密码" name="upwd" id="upwd">
+													<span class="ck-reset"></span>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#" class="login-login">登录</a>												
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="register.html">用户注册</a>
+												<span>丨</span>
+												<a href="#">忘记密码?</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--3.页面底部-->
+		<div id="footer"></div>
+	</div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>

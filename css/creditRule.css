@@ -1,0 +1,219 @@
+@charset:"utf-8";
+.xzb-main a:hover{
+    color:#ffa145;
+}
+.xzb-main>.nav{
+    width:100%;
+    height:36px;
+    background-color:#fff;
+    border-top:1px solid #eee;
+}
+.xzb-main>.nav>.nav-center{
+    width:1000px;
+    height:36px;
+    line-height:36px;
+    margin:0 auto;
+}
+.xzb-main>.nav>.nav-center>.icon-nav{
+    display:inline-block;
+    width:13px;
+    height:18px;
+    vertical-align:middle;
+    background:url(../img/icon-public.png) no-repeat  -23px -320px;
+}
+.xzb-main>.nav>.nav-center>a{
+    color:#595959;
+    padding:0 5px;
+}
+.xzb-main>.nav>.nav-center>a:hover{
+    color:#c17b35;
+}
+.xzb-main>.nav>.nav-center>span{
+    color:#808080;
+}
+.xzb-main>.nav>.nav-center>span:before{
+    content:"/";
+    padding-right:5px;
+}
+.xzb-main>.container{
+    background-color:#f3f1f1;
+    width:100%;
+    overflow:hidden;
+}
+.xzb-main>.container:before{
+    content:"";
+    display:table;
+}
+.xzb-main>.container>.xcontent{
+    width:1000px;
+    margin:20px auto;
+    min-height:650px;
+    overflow:hidden;
+}
+/****左侧边栏*****/
+.xzb-main>.container>.xcontent>.left-aside{
+    width:200px;
+    height:450px;
+    position:relative;
+    margin-right:10px;
+    background-color:#fff;
+}
+.xzb-main>.container>.xcontent>.left-aside>.title{
+    width:200px;
+    height:54px;
+    line-height:54px;
+    text-align:center;
+    background-color:#ff7921;
+    color:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.xzb-main>.container>.xcontent>.left-aside>.title>h1{
+    width:188px;
+    height:22px;
+    line-height:22px;
+    font-size:20px;
+    font-weight:normal;
+    margin:20px  auto;
+    border-radius:1px;
+}
+.xzb-main>.container>.xcontent>.left-aside>ul{
+    position:absolute;
+    top:63px;
+    left:0;
+}
+.xzb-main>.container>.xcontent>.left-aside>ul>li{
+    width:200px;
+    height:48px;
+    line-height:48px;
+    text-align:center;
+    border-bottom:1px dotted #f0f0f0;
+    border-left:2px solid transparent;
+}
+.xzb-main>.container>.xcontent>.left-aside>ul>li:hover{
+    border-left:2px solid #ffa145;
+}
+.xzb-main>.container>.xcontent>.left-aside>ul>li.on{
+    border-left:2px solid #ffa145;
+}
+.xzb-main>.container>.xcontent>.left-aside>ul>li>a{
+    font-size:16px;
+    display:block;
+    width:170px;
+    height:48px;
+    margin:0 auto;
+}
+
+/***右边栏信息***/
+.xcontent>.recordInfor{
+    width:780px;
+    min-height:600px;
+    background-color:#fff;
+    padding:8px;
+}
+.xcontent>.recordInfor>ul{
+    background:#f3f3f3;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    margin-top:30px;
+}
+/*.xcontent>.recordInfor>ul>li{*/
+/*float:left;*/
+/*}*/
+/*.xcontent>.recordInfor>ul>li>a{*/
+/*display:block;*/
+/*width:130px;*/
+/*height:42px;*/
+/*line-height:42px;*/
+/*text-align:center;*/
+/*border-bottom:2px solid transparent;*/
+/*}*/
+/*.xcontent>.recordInfor>ul>li.on>a{*/
+/*border-bottom:2px solid #ffa145;*/
+/*}*/
+.xcontent>.recordInfor>.box>.value{
+    margin:16px 0;
+    /* height:0; */
+    /*transition:all .5s linear;*/
+    display:none;
+}
+
+
+.xcontent>.recordInfor>.box>div.on{
+    display:block;
+    /* height:401px; */
+}
+.xcontent>.recordInfor>.box>.value>p{
+    color:#8A827F;
+    margin-bottom:16px;
+    text-indent:2em;
+    line-height:2;
+}
+.xcontent>.recordInfor>.box>.value>dl{
+    color:#8A827F;
+    margin-bottom:16px;
+    text-indent:2em;
+}
+.xcontent>.recordInfor>.box>.value>dl>dt{
+    color:#ffa145;
+    margin-bottom:16px;
+    line-height:2;
+
+}
+.xcontent>.recordInfor>.box>.value>div>img{
+    width:760px;
+}
+#box6>div{
+    width:100%;
+    height:465px;
+    border:1px solid #ddd;
+}
+#box6>div>img{
+    float:left;
+    margin-top:20px;
+}
+#box6>div>img:first-child{
+    height:200px;
+    width:142px;
+    margin-left:20px;
+}
+#box6>div>img:last-child{
+    width:240px;
+    height:174px;
+    margin-left:100px;
+}
+#box10>p.title{
+    font-size:16px;
+    color:#ffa145;
+    line-height:1.33;
+    padding:10px 0;
+    text-indent:1em;
+}
+#box10>p.title>span{
+    display:inline-block;
+    width:4px;
+    height:20px;
+    background:#ffa145;
+    float:left;
+    vertical-align:middle;
+    margin-left:10px;
+}
+#box5>p.title{
+    font-size:16px;
+    color:#ffa145;
+    line-height:1.33;
+    padding:10px 0;
+    text-indent:1em;
+}
+#box5>p.title>span{
+    display:inline-block;
+    width:4px;
+    height:20px;
+    background:#ffa145;
+    float:left;
+    vertical-align:middle;
+    margin-left:10px;
+}

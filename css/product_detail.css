@@ -1,0 +1,378 @@
+@charset:"utf-8";
+.detail-main{
+	background-color:#F2F2F2;
+	overflow:hidden;
+}
+em,i{
+	font-style:normal;
+}
+/*详情页导航*/
+.detail-main>.nav{
+	width:100%;
+	height:36px;
+	background-color:#fff;
+	border-top:1px solid #eee;
+}
+.detail-main>.nav>.nav-center{
+	width:1000px;
+	height:36px;
+	line-height:36px;
+	margin:0 auto;
+}
+.detail-main>.nav>.nav-center>.icon-nav{
+	display:inline-block;
+	width:13px;
+	height:18px;
+	vertical-align:middle;
+	background:url(../img/icon-public.png) no-repeat  -23px -320px;
+}
+.detail-main>.nav>.nav-center>b{
+	color:#eee;
+}
+.detail-main>.nav>.nav-center>a{
+	color:#595959;
+	padding:0 5px;
+}
+.detail-main>.nav>.nav-center>a:hover{
+	color:#ffa145;
+}
+.detail-main>.nav>.nav-center>span{
+	color:#808080;
+}
+.detail-main>.nav>.nav-center>span:before{
+	content:"/";
+	padding-right:5px;
+}
+/*详情页产品详情标题*/
+.detail-main>.title{
+	width:1000px;
+	background-color:#fff;
+	margin:20px auto;
+}
+/****左侧****/
+.detail-main>.title>.left{
+	width:640px;
+	/* height:400px; */
+	margin-right:10px;
+	padding:0 15px 15px 15px;
+}
+.detail-main>.title>.left>.sm-title{
+	border-bottom:1px solid #f2f2f2;
+	position:relative;
+	height:36px ;
+	line-height:36px;
+	font-size:16px ;
+	font-weight:normal;
+}
+.detail-main>.title>.left>.sm-title>span{
+	position:absolute;
+	right:0;
+	font-size:12px;
+	color:#333;
+	font-weight:normal;
+}
+.detail-main>.title>.left>.sm-title>span>em{
+	color:#ffa145;
+	font-weight:normal;
+	font-size:16px;
+}
+.detail-main>.title>.left>.row-01{
+	height:106px;
+	border-bottom:1px solid #f2f2f2;
+}
+.detail-main>.title>.left>.row-01>ul>li{
+	float:left;
+	width:33%;
+	text-align:center;
+	margin-top:25px;
+}
+.detail-main>.title>.left>.row-01>ul>li>:first-child{
+	font-size:30px;
+}
+.detail-main>.title>.left>.row-01>ul>li:first-child>:first-child{
+		color:#ff7f00;
+}
+.detail-main>.title>.left>.row-01>ul>li>:first-child>em{
+	font-size:12px;
+	color:#333;
+}
+.detail-main>.title>.left>.row-02{
+	height:50px;
+	line-height:50px;
+}
+.detail-main>.title>.left>.row-02>ul>li{
+	float:left;
+	width:33%;
+}
+.detail-main>.title>.left>.row-02>ul>li>:first-child{
+	color:#7c7c7c;
+}
+.detail-main>.title>.left>.row-03{
+	height:50px;
+	line-height:50px;
+}
+.detail-main>.title>.left>.row-03>ul>li{
+	float:left;
+	width:33%;
+}
+.detail-main>.title>.left>.row-03>ul>li>:first-child{
+	color:#7c7c7c;
+}
+.detail-main>.title>.left>.row-03>ul>li:last-child>.level-money{
+	width:150px;
+	height:10px;
+	background-color:#ddd;
+	display:inline-block;
+	position:relative;
+}
+.detail-main>.title>.left>.row-03>ul>li:last-child>.level-money>span{
+	position:absolute;
+	height:10px;
+	background-color:#2eb053;
+	left:0;
+	top:0;
+	width:10px;
+}
+.detail-main>.title>.left>.row-03>ul>li:last-child>span:last-child{
+	color:#7c7c7c;
+}
+
+.detail-main>.title>.left>.row-04{
+	height:50px;
+	line-height:50px;
+}
+.detail-main>.title>.left>.row-04>ul>li{
+	float:left;
+	color:#7c7c7c;
+}
+.detail-main>.title>.left>.row-04>ul>li>span{
+	color:#ff7921;
+}
+.detail-main>.title>.left>.row-04>ul>li:first-child{
+	width:60%;
+}
+/***右侧***/
+.detail-main>.title>.right{
+	width:340px;
+	height:300px;
+	margin:30px 10px 15px 0;
+	font-size:12px;
+	background-color:#f7f9fa;
+	padding-left:15px;
+
+}
+.detail-main>.title>.right>.lend{
+	height:40px;
+	line-height:40px;
+}
+.detail-main>.title>.right>.lend>em{
+	font-size:24px;
+	color:#000;
+}
+.detail-main>.title>.right>.txt-lend{
+	padding-top:30px;
+}
+.detail-main>.title>.right>.txt-lend>input.txt{
+	width:140px;
+	height:36px;
+	line-height:36px;
+	outline:none;
+	border:1px solid #ddd;
+	border-radius:5px;
+	cursor:not-allowed;
+	background-color:#f7f9fa;
+}
+.detail-main>.title>.right>.get{
+	height:30px;
+	line-height:30px;
+	margin:10px 0;
+}
+.detail-main>.title>.right>.get>em{
+	color:#ffa145;
+	font-size:16px;
+	font-weight:bold;
+}
+.detail-main>.title>.right>a.login-lend{
+	display:block;
+	width:320px;
+	height:36px;
+	line-height:36px;
+	background-color:#ff7921;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	border-radius:5px;
+}
+.detail-main>.title>.right>a.login-lend:hover{
+	color:#fff;
+	background-color:#ffa145;
+}
+/*详情页产品说明*/
+.detail-main>.product{
+	width:1000px;
+	min-height:850px;
+	background-color:#fff;
+	margin:20px auto;
+	padding-top:20px;
+}
+/**页签效果**/
+.detail-main>.product>.tabs{
+	height:44px;
+	border-bottom:1px solid #ffa145;
+}
+.detail-main>.product>.tabs>li{
+	float:left;
+}
+.detail-main>.product>.tabs>li:first-child{
+	margin-left:15px;
+}
+.detail-main>.product>.tabs a{
+	display:inline-block;
+	width:138px ;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	border:2px solid #ff7921;
+	background-color:#ff7921;
+	margin-right:15px; 
+
+}
+.detail-main>.product>.tabs a:hover{
+	background-color:#ffa145;
+    color: #fff;
+	border-bottom: 1px solid #fff;
+    border-top:2px solid #ff7921;
+	border-left:2px solid #ffa145;
+	border-right:2px solid #ffa145;
+}
+.detail-main>.product>.tabs>.active>a{
+	background-color: #fff;
+    color: #ffa145;
+    font-weight: bold;
+    border: solid 1px #ff7921;
+	border-bottom-color:#fff;
+    border-top: solid 2px #ff7921;
+}
+/**项目详情中借款人信息**/
+.detail-main>.product>.box{
+	padding:15px;
+}
+.tab-label>p:first-child{
+	font-size:16px;
+	color:#ffa145;
+	line-height:1.33;
+	padding:10px 0;
+}
+.tab-label>p>i{
+	display:inline-block;
+	width:4px;
+	height:20px;
+	background:#ffa145;	
+	margin-right:10px;
+	float:left;
+}
+.tab-label>p:last-child{
+	color:#666;
+	margin:10px 0;
+}
+/*****************js单击事件控制详情页显示或隐藏*********************************/
+.detail-main>.product>.box>div{
+	display:none;
+}
+.detail-main>.product>.box>div.active{
+	display:block;
+}
+.detail-main>.product>.box .tab-label>table{
+	border-collapse:collapse;
+	color:#666;
+	width:100%;
+}
+.detail-main>.product>.box .tab-label>table tr:nth-child(odd){
+	background:#f9f9f9;
+}
+.detail-main>.product>.box .tab-label>table tr td{
+	border:1px solid #ddd;
+	padding:10px 0;
+	text-align:center;
+}
+.detail-main>.product>.box .tab-label>table tr td:nth-child(even){
+	text-align:left;
+	width:30%;
+	padding-left:10px;
+}
+.detail-main>.product>.box>div>.tab-header{
+	padding-top:10px;
+	border-top:1px dotted  #e6edf2;
+	margin-top:40px;
+}
+
+.detail-main>.product>.box>div>.tab-header>ul>li{
+	float:left;
+	width:230px;
+	text-align:center;
+}
+.detail-main>.product>.box>div>.tab-header>ul>li>a{
+	display:inline-block;
+	width:180px;
+	height:135px;
+	min-height:135px;
+	border:2px solid #ddd;
+	overflow:hidden;
+	background:#d5dee0;
+	border-radius:5px;
+}
+.detail-main>.product>.box>div>.tab-header>ul>li>a:hover{
+	border:2px solid #cc985f;
+}
+.detail-main>.product>.box>div>.tab-header>ul>li>a>img{
+	width:180px;
+	min-height:135px;
+	border:none;
+}
+/**********风险控制**********/
+.risk-content .tab-label p:first-child{
+	font-size:16px;
+	color:#ffa145;
+	line-height:1.33;
+	padding:10px 0;
+}
+.detail-main>.product>.box  .risk-content .tab-label table tr td{
+	border:1px solid #ddd;
+	padding:10px 10px 10px 25px;
+	text-align:left;
+}
+.detail-main>.product>.box  .risk-content .tab-label table tr td:first-child{
+	background:#f9f9f9;
+	width:10%;
+}
+.detail-main>.product>.box  .risk-content>p{
+	color:#666;
+	margin-top:10px;
+}
+.detail-main>.product>.box  .risk-content>p:last-child{
+	color:#f00;
+}
+.lend-record{
+	border-collapse:collapse;
+	width:100%;
+}
+.lend-record tr td,.lend-record tr th{
+	border:1px solid #ddd;
+	text-align:center;
+	color:#666;
+	padding:10px 0;
+}
+.lend-record tr th{
+	background:#f9f9f9;
+}
+.lend-record tr td>i{
+	display:inline-block;
+	width:13px;
+	height:14px;
+	background:url(../img/icon-public.png) no-repeat -36px -320px;
+	vertical-align:middle;	
+}
+
+

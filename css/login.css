@@ -1,0 +1,146 @@
+@charset "utf-8";
+/*****设置登录页的主要内容*****/
+div.main{
+	width:100%;
+	background:#f7f7f7;
+/* 	margin-top:20px; */
+} 
+div.main>div.login-content{
+	width:1000px;
+	margin:0 auto;
+	margin-top:30px;
+	height:510px;
+	background:url(../img/login-bg1.png) no-repeat left center;
+}
+div.main>div.login-content>div.login-main{
+	float:right;
+	margin-top:50px;
+	padding-top:20px;
+	background-color:#fff;
+	width:400px;
+	height:440px;
+	border:2px solid #eee;
+	text-align:center;
+	box-shadow:0 0 5px #c4c4c4;
+}
+/*登录框标题设置*/
+div.login-main p.login-title{
+	margin-bottom:50px;
+}
+div.login-main p.login-title>i{
+	display:inline-block;
+	height:2px;
+	width:130px;
+	margin:5px 10px;
+	background-color:#ff7921;
+}
+div.login-main p.login-title>span{
+	color:#808080;
+	font-size:16px;
+}
+/*登录框值的设置*/
+div.login-value table{
+	margin:0 auto;
+}
+div.login-value .txt-val,.pwd-val{
+	width:262px;
+	height:38px;
+	margin-top:20px;
+	border:1px solid #ddd;
+}
+div.login-value .txt-val{
+	margin-top:10px;
+}
+div.login-value  input{
+	outline:none;
+	border:none;
+	height:36px;
+	line-height:36px;
+	float:left;
+	margin-left:10px;
+}
+div.login-value .txt-val>p,div.login-value .pwd-val>p{
+	width:36px;
+	height:36px;
+	background-color:#f0f0f0;
+	float:left;
+}
+/*××样式*/
+div.login-value .txt-val>span,div.login-value .pwd-val>span{
+	cursor:pointer;
+	float:right;
+	width:24px;
+	height:24px;
+	margin-top:10px;
+	background:url(../img/pwd-icons-new.png) no-repeat -25px -143px;
+	display:none
+}
+div.login-value .txt-val>span:hover,div.login-value .pwd-val>span:hover{
+	background-position:-50px -143px;
+}
+/*以上是××样式*/
+div.login-value .txt-val>p>i,div.login-value .pwd-val>p>i{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:6px 0;
+	background:url(../img/icon-public.png) no-repeat -24px -554px;
+}
+div.login-value .pwd-val>p>i{
+	background:url(../img/icon-public.png) no-repeat -0px -554px;
+}
+a.login-login{
+	margin-top:20px;
+	width:262px;
+	height:38px;
+	line-height:38px;
+	display:inline-block;
+	background-color:#ff7921;
+	border-radius:5px;
+	color:#fff;
+}
+a.login-login:hover{
+	background-color:#ffa145;
+	color:#fff;
+}
+div.login-value table tr:last-child td{
+	text-align:left;
+	color:#ffa145;
+	margin-top:20px;
+	display:block;
+}
+div.login-value table tr:last-child td a{
+	font-size:12px;
+	color:#ffa145;
+
+}
+div.login-value table tr:last-child td a:hover{
+	color:#fa7921;
+
+}
+/*错误提示设置*/
+div.txt-msg{
+	width:262px;
+	height:26px;
+	border:1px solid #ddd;
+	background-color:#ffebeb;
+	display:none;
+}
+div.login-value .txt-msg >p{
+	float:left;
+	height:26px;
+	
+}
+div.login-value .txt-msg >p>i{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background:url(../img/pwd-icons-new.png) no-repeat -104px -49px;
+	margin:5px 0 5px 10px;
+}
+div.login-value .txt-msg>div{
+	float:left;
+	color:#e4393c;
+}
+
+
